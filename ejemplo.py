@@ -13,4 +13,11 @@ def gastos_verduleria():
     Esta función debe informar la cantidad de productos comprados.
     '''
     #Tu código aca:
-    return 'Funcion incompleta'
+    #return 'Funcion incompleta'
+    df = pd.read_csv('datos/verduleria.csv')
+    
+    return df.shape[0]
+
+# E:\Programacion\Henry\SUP\PildoraTecnicaGithub\ejemplo.py ABOSLUTA
+# ejemplo.py
+# datos\verduleria.csv
